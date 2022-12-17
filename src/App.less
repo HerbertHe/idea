@@ -1,0 +1,37 @@
+.App {
+    @apply p-10 flex flex-row h-screen w-full bg-dark-900;
+    @apply lt-lg:(flex-col p-5);
+    @apply lt-sm:(h-auto);
+
+    .idea-text {
+        @apply w-80 p-10 rounded-xl bg-dark-400;
+        @apply lt-lg:(w-full mb-5 flex flex-row);
+        @apply lt-sm:(flex-col p-5);
+
+        & > .idea-avatar {
+            @apply mb-10;
+            @apply lt-sm:(mb-5);
+    
+            & > img {
+                @apply w-30 h-30 rounded-full;
+                @apply lt-sm:(w-20 h-20);
+            }
+        }
+
+        & > .idea-desc {
+            @apply lt-lg:(ml-10);
+            @apply lt-sm:(ml-0);
+
+            & > p {
+                @apply text-lg;
+                @apply lt-sm:(text-sm);
+            }
+        }
+    }
+
+    .idea-comments {
+        @apply ml-5 flex-1 p-10 rounded-xl bg-dark-400 overflow-y-auto;
+        @apply lt-lg:(ml-0);
+        @apply lt-sm:(p-5);
+    }
+}
