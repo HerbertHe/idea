@@ -11,7 +11,7 @@ const App = () => {
         </div>
         <div className="idea-desc">
           <header className="text-3xl font-bold">Share idea with me!</header>
-          <p>Amazing projects comes from amazing idea! 💡</p>
+          <p>Amazing project comes from amazing idea! 💡</p>
           <p>plz leave your idea here! 😯</p>
           <p>Or, you can email to me</p>
           <a href="mailto:i@jieec.cn">i@jieec.cn</a>
