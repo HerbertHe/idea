@@ -14,7 +14,7 @@ const App = () => {
           <p>Amazing project comes from amazing idea! 💡</p>
           <p>plz leave your idea here! 😯</p>
           <p>Or, you can email to me</p>
-          <a href="mailto:i@jieec.cn">i@jieec.cn</a>
+          <a href="mailto:hi@ibert.me">hi@ibert.me</a>
         </div>
       </div>
       <div className="idea-comments">
